@@ -1,0 +1,45 @@
+<div id="left"></div>
+<div id="middle"></div>
+<div id="right"></div>
+<style>
+ *{
+    background: #F5D6B4;
+    position: fixed;
+  }
+  #left, #middle, #right{
+    width: 60px;
+    height: 30px;
+    border: 20px solid #D86F45;
+  }
+    #left, #right{
+    border-radius: 0 0 50px 50px;
+    border-top: 0;
+  }
+   #middle{
+    margin: 92px 0 0 142px;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 0;
+  }
+  #left{
+    margin: 142px 0 0 62px;
+  }
+  #right{
+    margin: 142px 0 0 222px;
+  }
+  #left:before, #right:after{
+    content: "";
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    background: #D86F45;
+    border-radius: 20px 20px 0 0;
+    top: -10px;
+  }
+   #left:before{
+    left: -20px;
+  }
+  #right:after{
+    left: 60px;
+  }
+ 
+</style>
