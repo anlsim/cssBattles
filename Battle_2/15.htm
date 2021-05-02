@@ -1,0 +1,39 @@
+<div id="a"></div>
+<div id="b">
+  <div id="c"></div>
+</div>
+
+
+ <style>
+   body{
+    background:#09042A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   }
+   
+   div{
+     height: 150px;
+     width: 150px;
+     overflow: hidden;
+   }
+   #a{
+    position: relative;
+    border-radius:50%;
+    left:25px;
+    background-color: #7B3F61;
+   }
+   #b{
+     position: relative;
+     right:25px;
+     border-radius:50%;
+     background-color: #E78481;
+   }
+ 
+    #c{
+    	border-radius:75px;
+    	background:#09042A;
+    	left:-100;
+    	position:absolute;
+  }
+</style>
