@@ -1,0 +1,36 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body{
+    background: #5C434C;
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    background: #F09462;
+    border-radius: 100px 0 0;
+  }
+  div:nth-child(even){
+    background: #F5D6B4;
+  }
+    div:nth-child(8){
+    grid-column: 1/2;
+      grid-row: 2;
+  }
+</style>
