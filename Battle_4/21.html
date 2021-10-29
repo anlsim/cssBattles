@@ -1,0 +1,38 @@
+<div class="orange"></div>
+
+<style>
+  body{
+    background: #222;
+  }
+  .orange {
+    width: 30px;
+    margin-left: 150px;
+    margin-top: 60px;
+    height: 100px;
+    background:	#F2994A;
+    transform: rotate(45deg);
+  	position: relative;
+    box-shadow: 100px 20px #2D9CDB;  
+  }
+  .orange:after, .orange:before{
+    content: '';
+      position: absolute;
+      width: 30px;
+      height: 80px; 
+  }
+   .orange:after{
+      background: #F2994A;
+      left: 25px;
+      top:45px;
+      border-radius: 5px 0 10px 0;
+      transform: rotate(90deg);
+  }
+   .orange:before{
+      background: #2D9CDB;
+ 	  left: 75px;
+      top: -5px;
+      border-radius: 0 0 5px 0;
+      transform: rotate(90deg);
+  }
+  
+</style>
