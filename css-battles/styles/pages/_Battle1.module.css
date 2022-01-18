@@ -1,5 +1,7 @@
 .container {
-  padding: 0 1rem;
+  position: relative;
+  height: 400px;
+  width: 400px;
 }
 
 .main {
@@ -17,15 +19,12 @@
 }
 .bone {
   background-color: #0B2429;
-  position: relative;
-  height: 400px;
-  width: 400px;
 }
 .btwo {
   background: #6592CF;
-  position: relative;
-  height: 400px;
-  width: 400px;
+}
+.bthree {
+  background: #222730;
 }
 .lemon {
   position: absolute;
@@ -109,4 +108,43 @@
   height: 140px;
   background: #060F55;
   border-radius: 50%;
+}
+
+
+.rectangle {
+  position: absolute;
+  
+  left: 0px;
+  margin-top: 65px;
+  margin-left:0;
+  width: 100%;
+  height: 150px;
+  background: #4CAAB3;
+}
+ .sqrA {
+  position: absolute;
+   margin-top:20px;
+   margin-left: 70px;
+  transform: rotate(45deg);
+   width: 250px;
+  height: 250px;
+  background: #222730;
+}
+   .sqrB {
+  position: absolute;
+   margin-top:70px;
+   margin-left: 120px;
+  transform: rotate(45deg);
+   width: 150px;
+  height: 150px;
+  background: #4CAAB3;
+}
+.crcle{
+   position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-top: 120px;
+  margin-left: 170px;
+  border-radius: 50%;
+  background: #393E46;
 }
