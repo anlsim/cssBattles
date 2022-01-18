@@ -13,7 +13,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.buno {
+  background: #5d3a3a;
+  margin: 0;
+}
 .bone {
   background-color: #0B2429;
 }
@@ -23,6 +26,13 @@
 .bthree {
   background: #222730;
 }
+
+.square{
+  width: 200px;
+  height: 200px;
+  background: #b5e0ba;
+}
+
 .lemon {
   position: absolute;
   width: 150px;

@@ -4,6 +4,10 @@ const battle1 = () => {
     <div className={style.main}>
       <h1>Battle 1</h1>
 
+      <h2>#1 - Simply Square</h2>
+      <div className={[style.container, style.buno].join(' ')}>
+        <div className={style.square}></div>
+      </div>
       <h2>#7</h2>
       <div className={[style.container, style.bone].join(' ')}>
         <div className={[style.bottom, style.lemon].join(' ')}></div>
