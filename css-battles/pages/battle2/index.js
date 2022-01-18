@@ -1,7 +1,20 @@
+import style from '../../styles/pages/_Battle2.module.css';
 const battle2 = () => {
   return (
-    <div>
+    <div className={style.main}>
       <h1>Battle 2</h1>
+      <h2>#13</h2>
+      <div className={[style.container, style.b13].join(' ')}>
+        <div className={style.sinNombre}></div>
+      </div>
+
+      <h2>#14</h2>
+      <div className={[style.container, style.b14].join(' ')}> 
+        <div className={style.catorce}></div>
+        <div className={style.catorce}></div>
+        <div className={style.catorce}></div>
+        <div className={style.catorce}></div>
+      </div>
     </div>
   )
 }
