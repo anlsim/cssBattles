@@ -1,0 +1,112 @@
+.container {
+  padding: 0 1rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  color: black;
+}
+.bone {
+  background-color: #0B2429;
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+.btwo {
+  background: #6592CF;
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+.lemon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px 0px;
+  
+}
+.bottom{
+  margin-top: 70px;
+  margin-left: 70px;
+  background: #1A4341;
+}
+.middle{
+   margin-top: 70px;
+  margin-left: 120px;
+  background: #998235;
+}
+.top{
+   margin-top: 70px;
+  margin-left: 170px;
+  background: #F3AC3C;
+}
+
+.handle{
+  position: absolute;
+ margin-top: 200px;
+ margin-left: 180px;
+  height: 100px;
+  width: 20px;
+   background: #060F55;
+}
+.dkLine{
+  position: absolute;
+  height: 140px;
+  width: 20px;
+   background: #060F55;
+  border-radius: 10px;
+}
+.line1{
+  margin-top: 40px;
+  margin-left: 120px;
+}
+ .line2{
+  margin-top: 40px;
+  margin-left: 160px;
+}
+  .line3{
+  margin-top: 40px;
+  margin-left: 200px;
+}
+  .line4{
+  margin-top: 40px;
+  margin-left: 240px;
+}
+  .lgLine{
+  position: absolute;
+  height: 140px;
+  width: 20px;
+  border-radius: 10px;
+  background: #6592CF;
+}
+ .a{
+  margin-top: 10px;
+  margin-left: 220px;
+}
+.b{
+  margin-top: 10px;
+  margin-left: 180px;
+}
+ .c{
+  margin-top: 10px;
+  margin-left: 140px;
+}
+.circle {
+  
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 140px;
+  height: 140px;
+  background: #060F55;
+  border-radius: 50%;
+}
