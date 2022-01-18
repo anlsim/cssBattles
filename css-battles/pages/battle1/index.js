@@ -8,14 +8,14 @@ const battle1 = () => {
       <div className={[style.container, style.buno].join(' ')}>
         <div className={style.square}></div>
       </div>
-      <h2>#7</h2>
+      <h2>#7 - Leafy Trail</h2>
       <div className={[style.container, style.bone].join(' ')}>
         <div className={[style.bottom, style.lemon].join(' ')}></div>
         <div className={[style.middle, style.lemon].join(' ')}></div>
         <div className={[style.top, style.lemon].join(' ') }></div>   
       </div>
 
-      <h2>#8</h2>
+      <h2>#8 - Forking Crazy</h2>
       <div className={[style.container, style.btwo].join(' ')}>
         <div className={style.circle}></div>
         <div className={[style.line1, style.dkLine].join(' ')}></div>
@@ -28,7 +28,7 @@ const battle1 = () => {
         <div class={style.handle}></div>
       </div>
 
-      <h2>#9</h2>
+      <h2>#9 Tesseract</h2>
       <div className={[style.container, style.bthree].join(' ')}>
         <div className={style.rectangle}></div>
         <div className={style.sqrA}></div>
@@ -36,12 +36,8 @@ const battle1 = () => {
         <div className={style.crcle}></div>
       </div>
 
-      <h2>#10</h2>
+      <h2>#10 - Cloacked Spirits</h2>
       <div className={[style.container, style.bten].join(' ')}>
-        <div className={style.rectangle}></div>
-        <div className={style.sqrA}></div>
-        <div className={style.sqrB}></div>
-        <div className={style.crcle}></div>
       </div>
     </div>
   )
