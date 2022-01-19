@@ -12,29 +12,64 @@
   grid-template-columns: repeat(3, 1fr);
 
 }
+/* CONTAINERS */
 .buno {
   background: #5d3a3a;
   margin: 0;
 }
-.bone {
-  background-color: #0B2429;
-}
 .btwo {
+  background: #62374e;
+}
+.bthree{
   background: #6592CF;
 }
-.bthree {
+.bseven {
+  background-color: #0B2429;
+}
+.beight{
+  background: #6592CF;
+}
+.bnine {
   background: #222730;
 }
 .bten {
   background: #62306D;
 }
+.beleven {
+  background: #191210;
+}
+/* ----- */
 
+/* ONE */
 .square{
   width: 200px;
   height: 200px;
   background: #b5e0ba;
 }
+/* ----- */
 
+/* TWO */
+.aTwo {
+  width: 300px;
+  height: 150px;
+  background: #243D83;
+  margin: 75px 42px;
+  overflow: hidden;
+
+  
+}
+  .bTwo {
+  width: 50px;
+  height: 50px;
+  background: #EEB850;
+  border-radius: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 0 50px #243D83, 0 0 0 100px #6592CF;
+  overflow: hidden;
+}
+/* ------- */
+
+/* SEVEN */
 .lemon {
   position: absolute;
   width: 150px;
@@ -222,4 +257,46 @@
   margin-top: 160px;
   margin-left: 270px;
    background:#E38F66;
+}
+/* ------ */
+
+/* ELEVEN */
+#xEleven, #yEleven{
+  width: 60px;
+  height: 30px;
+  border: 20px solid #ECA03D;
+}
+#xEleven, #yEleven{
+  border-radius: 0 0 50px 50px;
+  border-top: 0;
+}
+ #yEleven{
+  margin: 92px 0 0 242px;
+  transform: rotate(180deg);
+}
+ #xEleven{
+  margin: 142px 0 0 42px;
+
+}
+
+.BGcircleEleven {
+  margin: 72px 0 0 122px;
+  width: 140px;
+  height: 140px;
+  background: #ECA03D;
+  border-radius: 50%;
+}
+.MDcircleEleven {
+  margin: 92px 0 0 142px;
+  width: 100px;
+  height: 100px;
+  background: #191210;
+  border-radius: 50%;
+}
+.SDcircleEleven {
+  margin: 116px 0 0 166px;
+  width: 50px;
+  height: 50px;
+  background: #84271C;
+  border-radius: 50%;
 }
