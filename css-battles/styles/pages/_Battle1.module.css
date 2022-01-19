@@ -17,9 +17,6 @@
   background: #5d3a3a;
   margin: 0;
 }
-.btwo {
-  background: #62374e;
-}
 .bthree{
   background: #6592CF;
 }
@@ -49,16 +46,47 @@
 /* ----- */
 
 /* TWO */
-.aTwo {
+.btwo {
+  background: #62374e;
+}
+.TwoDiv {
+  width: 50px;
+  height: 50px;
+  background: #fdc57b;
+  display: flex; 
+}
+.first2 { 
+  top: 50px;
+  left: 50px;
+  position:absolute;
+}
+
+.second2{
+  top: 200px;
+ left: 50px;
+ position:absolute;
+}
+.third2{
+  top: 200px;
+  left: 300px;
+  position:absolute;
+}
+.forth2{
+  top: 50px;
+  left: 300px;
+  position:absolute;
+}
+/*-------- */
+
+/* Three */
+.aThree {
   width: 300px;
   height: 150px;
   background: #243D83;
   margin: 75px 42px;
   overflow: hidden;
-
-  
 }
-  .bTwo {
+  .bThree {
   width: 50px;
   height: 50px;
   background: #EEB850;

@@ -11,13 +11,17 @@ const battle1 = () => {
       </div>
 
       <div className={[style.container, style.btwo].join(' ')}>
-        <h2>#2 - Carro</h2>
+        <h2>#2 - Carrom</h2>
+        <div className={[style.TwoDiv, style.first2].join(' ')}></div>
+        <div className={[style.TwoDiv, style.second2].join(' ')}></div>
+        <div className={[style.TwoDiv, style.third2].join(' ')}></div>
+        <div className={[style.TwoDiv, style.forth2].join(' ')}></div>
       </div>
 
       <div className={[style.container, style.bthree].join(' ')}>
         <h2>#3 - Push Button</h2>
-        <div className={style.aTwo}>
-            <div className={style.bTwo}></div>
+        <div className={style.aThree}>
+            <div className={style.bThree}></div>
         </div>
       </div>
 
@@ -61,7 +65,7 @@ const battle1 = () => {
         <div className={[style.BsmTen, style.smCircleTen ].join(' ')}></div>
         <div className={[style.CsmTen, style.smCircleTen ].join(' ')}></div>
       </div>
-      
+
       <div className={[style.container, style.beleven].join(' ')}>
         <h2>#11 - Eye of Sauron</h2>
         <div id="xEleven"></div>
