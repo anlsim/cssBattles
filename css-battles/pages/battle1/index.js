@@ -38,7 +38,16 @@ const battle1 = () => {
       </div>
 
       <div className={[style.container, style.bten].join(' ')}>
-      <h2>#10 - Cloacked Spirits</h2>
+        <h2>#10 - Cloacked Spirits</h2>
+        <div className={[style.aTen, style.TenRectangle ].join(' ')}></div>
+        <div className={[style.bTen, style.TenRectangle ].join(' ')}></div>
+        <div className={[style.cTen, style.TenRectangle ].join(' ')}></div>
+        <div className={[style.leftTen, style.bgCircleTen ].join(' ')}></div>
+        <div className={[style.middleTen, style.bgCircleTen ].join(' ')}></div>
+        <div className={[style.rightTen, style.bgCircleTen ].join(' ')}></div>
+        <div className={[style.AsmTen, style.smCircleTen ].join(' ')}></div>
+        <div className={[style.BsmTen, style.smCircleTen ].join(' ')}></div>
+        <div className={[style.CsmTen, style.smCircleTen ].join(' ')}></div>
       </div>
     </div>
     </>

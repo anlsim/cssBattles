@@ -25,6 +25,9 @@
 .bthree {
   background: #222730;
 }
+.bten {
+  background: #62306D;
+}
 
 .square{
   width: 200px;
@@ -153,4 +156,70 @@
   margin-left: 170px;
   border-radius: 50%;
   background: #393E46;
+}
+
+/* TEN */
+
+.TenRectangle {
+  position: absolute;
+  background: #F7EC7D;
+  width: 100px;
+}
+.aTen{
+ margin-top: 190px;
+  margin-left: 50px;
+  height: 130px;
+}
+.bTen{
+  margin-top: 90px;
+  margin-left: 150px;
+  height: 210px;
+}
+.cTen{
+  margin-top: 190px;
+  margin-left: 250px;
+  height: 130px;
+}
+.bgCircleTen{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.leftTen{
+  margin-top: 140px;
+  margin-left: 50px;
+  background:#AA445F;
+}
+.middleTen{
+  margin-top: 40px;
+  margin-left: 150px;
+  background:#E38F66;
+}
+.rightTen{
+  margin-top: 140px;
+  margin-left: 250px;
+  background:#AA445F;
+}
+.smCircleTen{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  
+}
+.AsmTen{
+  margin-top: 160px;
+  margin-left: 70px;
+   background:#E38F66;
+}
+.BsmTen{
+  margin-top: 60px;
+  margin-left: 170px;
+  background: #AA445F;
+}
+.CsmTen{
+  margin-top: 160px;
+  margin-left: 270px;
+   background:#E38F66;
 }
