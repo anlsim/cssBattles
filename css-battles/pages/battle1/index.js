@@ -109,7 +109,7 @@ const battle1 = () => {
             className={[style.c, style.lgLine].join(
               ' '
             )}></div>
-          <div class={style.handle}></div>
+          <div className={style.handle}></div>
         </div>
 
         <div
@@ -180,8 +180,6 @@ const battle1 = () => {
             ' '
           )}>
           <h2>#11 - Eye of Sauron</h2>
-          <div id='xEleven'></div>
-          <div id='yEleven'></div>
           <div className={style.BGcircleEleven}></div>
           <div className={style.MDcircleEleven}></div>
           <div className={style.SDcircleEleven}></div>

@@ -29,7 +29,7 @@ const NavBar = () => {
       <ul className= {styles.navBar}>
         {navItems.map((item, index)=> {
           return (
-            <li className= {styles.navItem}>
+            <li className= {styles.navItem} key={index}>
               <Link href={item.link}>
                 <p>{item.title}</p>
               </Link>
