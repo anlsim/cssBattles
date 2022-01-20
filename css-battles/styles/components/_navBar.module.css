@@ -1,0 +1,15 @@
+.navBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navItem {
+  display: inline;
+  float: left;
+  padding: 8px;
+}
+.navItem:hover {
+  cursor: pointer;
+}
