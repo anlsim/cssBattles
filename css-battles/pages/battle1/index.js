@@ -184,6 +184,15 @@ const battle1 = () => {
           <div className={style.MDcircleEleven}></div>
           <div className={style.SDcircleEleven}></div>
         </div>
+        <div
+          className={[style.container, style.btwelve].join(
+            ' '
+          )}>
+          <h2>#12 - </h2>
+          <div className={style.l12}></div>
+          <div className={style.m12}></div>
+          <div className={style.r12}></div>
+        </div>
       </div>
     </>
   )

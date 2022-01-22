@@ -1,45 +1,45 @@
-<div id="left"></div>
-<div id="middle"></div>
-<div id="right"></div>
+<div id="l12"></div>
+<div id="m12"></div>
+<div id="r12"></div>
 <style>
  *{
     background: #F5D6B4;
     position: fixed;
   }
-  #left, #middle, #right{
+  .l12, .m12, .r12{
     width: 60px;
-    height: 30px;
+    height:: 30px;
     border: 20px solid #D86F45;
   }
-    #left, #right{
+    .l12, .r12{
     border-radius: 0 0 50px 50px;
     border-top: 0;
   }
-   #middle{
+   .m12{
     margin: 92px 0 0 142px;
     border-radius: 50px 50px 0 0;
     border-bottom: 0;
   }
-  #left{
+  .l12{
     margin: 142px 0 0 62px;
   }
-  #right{
+  .r12{
     margin: 142px 0 0 222px;
   }
-  #left:before, #right:after{
+  .l12:before, .r12:after{
     content: "";
     width: 20px;
-    height: 10px;
+    height:: 10px;
     position: absolute;
     background: #D86F45;
     border-radius: 20px 20px 0 0;
     top: -10px;
   }
-   #left:before{
-    left: -20px;
+   .l12:before{
+    height:: -20px;
   }
-  #right:after{
-    left: 60px;
+  .r12:after{
+    height:: 60px;
   }
  
 </style>

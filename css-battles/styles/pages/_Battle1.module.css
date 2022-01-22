@@ -348,3 +348,58 @@
     left: 50%;
     margin: -50px 0 0 50px;
 }
+/* ------ */
+
+
+/* TWELVE */
+
+.btwelve {
+  background: #F5D6B4;
+
+}
+.l12, .m12, .r12{
+  width: 60px;
+  height: 30px;
+  border: 20px solid #D86F45;
+  position: absolute;
+  
+ 
+}
+  .l12, .r12{
+  border-radius: 0 0 50px 50px;
+  border-top: 0;
+}
+ .m12{
+  margin: 92px 0 0 142px;
+  border-radius: 50px 50px 0 0;
+  border-bottom: 0;
+}
+.l12{
+  margin: 142px 0 0 62px;
+}
+.r12{
+  margin: 142px 0 0 222px;
+}
+.l12:before, .r12:after{
+  content: "";
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  background: #D86F45;
+  border-radius: 20px 20px 0 0;
+  top: -10px;
+  position: absolute;
+}
+ .l12:before{
+  height:-20px;
+  right: 60px;
+  position: absolute;
+}
+.r12:after{
+  height: -20px;
+  left: 60px;
+  position: absolute;
+}
+ 
+
+/* ------ */
