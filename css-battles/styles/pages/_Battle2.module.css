@@ -12,10 +12,10 @@
   grid-template-columns: repeat(3, 1fr);
 
 }
-.b13 {
+.container13 {
   background: #0B2429;
 }
-.b14 {
+.container14 {
   background:#F2F2B6;
 }
 
@@ -53,3 +53,35 @@
   left: 130px;
   z-index: 0;
 }
+/* Fifteen */
+.container15 {
+  background:#09042A;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.div15{
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+.a15{
+  position: relative;
+  border-radius:50%;
+  left:25px;
+  background-color: #7B3F61;
+ }
+ .b15{
+  position: relative;
+  right:25px;
+  border-radius:50%;
+  background-color: #E78481;
+}
+
+.c15{
+  border-radius:75px;
+  background:#09042A;
+  left:-100;
+  position:absolute;
+}
+/* ---------- */

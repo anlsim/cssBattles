@@ -16,7 +16,7 @@ const battle2 = () => {
       <h1>Battle #2 - Visibility</h1>
       <div className={style.main}>
         <div
-          className={[style.container, style.b13].join(
+          className={[style.container, style.container13 ].join(
             ' '
           )}>
           <h2>#13 - Totally Triangle</h2>
@@ -24,7 +24,7 @@ const battle2 = () => {
         </div>
 
         <div
-          className={[style.container, style.b14].join(
+          className={[style.container, style.container14 ].join(
             ' '
           )}>
           <h2>#14 - Web Maker Logo</h2>
@@ -32,6 +32,17 @@ const battle2 = () => {
           <div className={style.catorce}></div>
           <div className={style.catorce}></div>
           <div className={style.catorce}></div>
+        </div>
+        <div
+          className={[style.container, style.container15 ].join(
+            ' '
+          )}>
+       
+          <div className={[style.div15, style.a15].join(' ')}></div>
+          <div className={[style.div15, style.b15].join(' ')}>
+          <div className={[style.div15, style.c15].join(' ')}></div>
+          </div>
+
         </div>
       </div>
     </>
