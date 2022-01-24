@@ -84,4 +84,48 @@
   left:-100;
   position:absolute;
 }
-/* ---------- */
+/* ========= */
+
+/* SIXTEEN */
+.container16 {
+    background:#0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.circle16 {
+  position: absolute;
+  border-radius: 50%
+}
+ .triangle16 {
+   height: 200px;
+   width: 200px;
+   border-radius: 110px 0 ;
+  position: absolute;
+  background:#998235;
+  transform: rotate(45deg);
+}
+ .a16{
+  width: 200px;
+  height:200px;
+  background-color: #998235;
+  
+}
+.b16{
+  width: 180px;
+  height:180px;
+  background-color: #0B2429;
+  
+}
+.c16{
+  width: 140px;
+  height:140px;
+  background-color: #F3AC3C;
+  
+}
+ .d16{
+  width: 50px;
+  height:50px;
+  background-color: #0B2429;
+}
+/* ========= */

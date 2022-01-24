@@ -44,6 +44,19 @@ const battle2 = () => {
           </div>
 
         </div>
+        <div
+          className={[style.container, style.container16 ].join(
+            ' '
+          )}>
+          <h2> #16 - Eye of the Tiger</h2>
+          <div className={style.triangle16}></div>
+          <div className={[style.circle16 , style.a16].join(' ')}></div>
+          <div className={[style.circle16 , style.b16].join(' ')}></div>
+          <div className={[style.circle16 , style.c16].join(' ')}></div>
+          <div className={[style.circle16 , style.d16].join(' ')}></div>
+
+        </div>
+       
       </div>
     </>
   )
