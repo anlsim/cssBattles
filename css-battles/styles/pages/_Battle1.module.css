@@ -20,6 +20,9 @@
 .bthree{
   background: #6592CF;
 }
+.bfour{
+  background: #62306D;
+}
 .bseven {
   background-color: #0B2429;
 }
@@ -34,6 +37,7 @@
 }
 /* ----- */
 
+
 /* ONE */
 .square{
   width: 200px;
@@ -41,6 +45,7 @@
   background: #b5e0ba;
 }
 /* ----- */
+
 
 /* TWO */
 .btwo {
@@ -59,7 +64,7 @@
 }
 
 .second2{
-  top: 200px;
+ top: 200px;
  left: 50px;
  position:absolute;
 }
@@ -74,6 +79,7 @@
   position:absolute;
 }
 /*-------- */
+
 
 /* Three */
 .aThree {
@@ -93,6 +99,35 @@
   overflow: hidden;
 }
 /* ------- */
+
+
+/* FOUR */
+
+.mainFour {
+  position: absolute; 
+  background:#F7EC7D;
+  width: 100px;
+  height: 100px;
+}
+.aFour {
+  /* position:absolute; */
+  left: 42px;
+}
+.bFour{
+  border-radius:  50% 50% 0 0;
+  top: 42px;
+  left: 142px;
+  /* position:absolute; */
+}
+.cFour {
+  left: 242px;
+}
+.aFour, .cFour {
+  border-radius:  0 0 50% 50%;
+  top: 142px;
+}
+/* ------- */
+
 
 /* SEVEN */
 .lemon {
@@ -218,8 +253,8 @@
   background: #393E46;
 }
 
-/* TEN */
 
+/* TEN */
 .TenRectangle {
   position: absolute;
   background: #F7EC7D;
@@ -284,6 +319,7 @@
    background:#E38F66;
 }
 /* ------ */
+
 
 /* ELEVEN */
 .beleven {
@@ -352,7 +388,6 @@
 
 
 /* TWELVE */
-
 .btwelve {
   background: #F5D6B4;
 
@@ -400,6 +435,4 @@
   left: 60px;
   position: absolute;
 }
- 
-
 /* ------ */
